@@ -1,0 +1,54 @@
+
+<script src="https://cdn.jsdelivr.net/npm/davidshimjs-qrcodejs@0.0.2/qrcode.min.js"></script>
+<div class="col-md">
+<p class="img">
+<img
+height="50"
+src="https://drive.google.com/uc?export=view&id=1UdLV6a7UvT1reHWS1oBrPxpjEuG5DRrl"
+/>
+</p>
+</div>
+
+<div id="sec" class="col-md">
+<h1><b>CERTIFICATE FOR THE <br>SARS-COV2 ANTIGEN TEST</b></h1>
+</div>
+<div id="thir" class="col-md-12">
+<p> In the following we certify:<br> {{last_name}}, {{first_name}}  born on {{date_of_birth}} <br> {{address}} <br> Passport or identity card number: {{id_number}}<br> 
+took a SARS-COV2 antigen test.<br> The result is as follows:</p>
+</div>            
+<div id="for" class="col-md">
+<h1><b>{{result}}</b></h1>
+</div>
+<div id="fif" class="col-md">
+<h5><i>PLEASE NOTE:</i></h5>
+<p style="font-size: smaller;"><i>Even a negative test result is only a snapshot and does not release you from hygiene and protective measures. A quick test, however, reduce the risk of unknowingly infecting others without corona symptoms.</i></p>
+</div>
+<div id="six" class="col-md">
+<p>The antigen test was booked at <br>{{signup_time}}</p>
+</div>
+<div id="newone"class="container">
+<h5><b>LEGAL NOTICE</b></h5>
+<P>
+<i>Anyone who falsifies this document or incorectly certifies 
+a test that has not been carried out or deliberately certifies 
+a positive test as negative is liable to prosecution for falsifying documents. 
+Anyone Who uses a forged document to gain acess to a facility or an offer is 
+committing an administrative offence that is punishable by a fine.
+Any violation found will be reported.</i>
+</P>
+</div>
+<div id="fir"class="container">
+<div class="w-1/2" id="qrcode" data-text="{{first_name}}, {{last_name}}, {{id_number}}, {{result}}"></div>
+<div id="" class="w-1/2">
+<p>The document was created electronically <br> 
+and is valid without is a signature. <br> 
+To verify, please hover over the QR code on the right.
+</p>
+</div>
+</div>
+<!-- the QR-code -->
+<script type="text/javascript">
+new QRCode(document.getElementById("qrcode"), document.getElementById("qrcode").getAttribute('data-text'));
+</script>
+
+<!-- <script src="./index.js"></script> -->

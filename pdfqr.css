@@ -1,0 +1,88 @@
+.container{
+    margin-top: 1px;
+}
+
+#right{
+    float: right;
+}
+#img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#sec{
+    text-align: center;
+    padding:0px 47px 0px 10px;
+}
+#thir{
+    text-align: center;
+    padding:0px 47px 0px 10px;
+    margin-top: 30px;
+}
+#for{
+    text-align: center;
+    color:hsl(112deg, 59%, 22%);
+    padding:0px 47px 0px 10px;
+    margin-top: 30px;
+}
+#fif{
+    text-align: center;
+    padding:0px 47px 0px 10px;
+
+}
+#six{
+    text-align: center;
+    padding:0px 47px 0px 10px;
+    margin-top: 50px;
+
+}
+#sev{
+    text-align: center;
+
+}
+#eig{
+    text-align: center;
+    padding:0px 47px 0px 10px;
+}
+
+#newone{
+    background-color: hsl(0deg, 0%, 93%);
+    padding:10px 30px 40px 10px;
+    margin-top: 50px;
+}
+#newone p{
+    font-size: smaller;
+    font-weight: bold;
+}
+#fir{
+    padding:10px 30px 40px 10px;
+    margin-top: 20px;
+}
+#fir h6{
+    padding-bottom: 0px;
+}
+#fir p{
+    font-size: smaller;
+    position:absolute;                 
+    bottom:0;
+}
+#sndimg img {
+    padding-top: 10px;
+    width: 280px;
+    height: 190px;
+    align-items: center;
+    margin-top: 81px;
+}
+#qrcode img {
+    width: 160px;
+    height: 140px;
+    float: right;
+    position:absolute;                 
+    bottom:0;
+    right:0; 
+}
+
+.no-break {
+  page-break-inside: avoid;
+}
